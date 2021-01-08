@@ -1,0 +1,75 @@
+:root {
+  --gray: #656565;
+  --light-gray: #dddddd;
+  --main: #ea6a5b;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+  font-size: 14px;
+  background-color: color(second);
+}
+
+.banner-text {
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--gray);
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.car-details {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-bg {
+  background-color: var(--main);
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+}
+
+.navbar .navbar-nav .active a {
+  color: #333333;
+  border-bottom: 4px solid #333333;
+}
+
+.navbar .navbar-nav a {
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.form td {
+  padding: 7px 0 8px 0;
+}
+
+.form .input {
+  padding-left: 30px;
+}
+
+.bg-light-gray {
+  background-color: var(--light-gray);
+}
+
+.mark-as-completed {
+  color: var(--main);
+}
+
+.shop-performance td {
+  padding: 7px 0 8px 20px;
+  border: 0px;
+}
+/*# sourceMappingURL=main.css.map */
